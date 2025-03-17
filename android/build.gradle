@@ -23,10 +23,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'io.flutter.plugins.webview_cookie_manager'
     compileSdk 34
-
-    namespace "io.flutter.plugins.webview_cookie_manager"
+    namespace 'com.example.webview_cookie_manager' // Ensure this is correctly defined
 
     defaultConfig {
         minSdkVersion 16
