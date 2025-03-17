@@ -1,5 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.webview_cookie_manager"
-    tools:replace="android:label">
+    package="com.example.webview_cookie_manager">
 
+    <application
+        android:label="spoon"
+        tools:replace="android:label">
+    </application>
+
+</manifest>
