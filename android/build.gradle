@@ -23,7 +23,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 34
+    flutter.compileSdkVersion
     namespace 'com.example.webview_cookie_manager' // Ensure this is correctly defined
 
     defaultConfig {
